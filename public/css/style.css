@@ -1,0 +1,615 @@
+.nav-bar-color-bluec
+{
+  height: 50vh;
+min-height: 300px;
+background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    background-size: auto auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+
+}
+.navbar-menu-color
+{
+      background: #404852;
+}
+.background-img
+{
+    background: #f1efef;
+}
+#pl_list_all tr
+{
+    font-size: 13px;
+}
+.market_buy:hover
+{
+    cursor: pointer;
+    background-color: #4ac36d !important;
+}
+.market_no_buy:hover
+{
+    cursor: not-allowed;
+    background-color: #fa4848 !important;
+}
+.gifs-day
+{
+    font-family: 'Oswald', sans-serif;
+    height: 150px;
+}
+.gifs-day-active {
+    -webkit-animation: flash linear  1.2s infinite;
+  	animation: flash linear 1.2s infinite;
+}
+.modal-vue {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    outline: 0;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+.selecting
+{
+    position: absolute;
+    margin-top: -100px;
+    font-size: 25px;
+    margin-left: -75px;
+    color: #0d89ff;
+}
+.tooltip_event{
+    position: absolute;
+    height: auto;
+    background: #007bff;
+    color:white;
+    z-index: 100;
+
+}
+
+.flash-notifications
+{
+    width: 350px;
+    height: 70px;
+    right: 10px;
+    position: relative;
+    margin-top: 10px;
+    background: red;
+}
+.form-control{
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none !important;
+		border: none;
+}
+.form-control:focus{
+		background: #e2e2e2;
+}
+.form-control, .btn{
+    border-radius: 3px;
+}
+.signup-form{
+
+  margin: 30px auto;
+}
+.signup-form form{
+		color: #999;
+		border-radius: 3px;
+  	margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form h2 {
+		color: #333;
+		font-weight: bold;
+    margin-top: 0;
+}
+.signup-form hr {
+    margin: 0 -30px 20px;
+}
+.signup-form .form-group{
+		margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+		margin-top: 3px;
+}
+.signup-form .row div:first-child{
+		padding-right: 10px;
+}
+.signup-form .row div:last-child{
+		padding-left: 10px;
+}
+.signup-form .btn-sub{
+        font-size: 16px;
+        font-weight: bold;
+		background: #3598dc;
+		border: none;
+		min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus{
+		opacity: 0.8;
+    outline: none;
+}
+.signup-form a{
+		color: #fff;
+		text-decoration: underline;
+}
+.signup-form a:hover{
+		text-decoration: none;
+}
+.signup-form form a{
+		color: #3598dc;
+		text-decoration: none;
+}
+.player-selected:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.signup-form form a:hover{
+		text-decoration: underline;
+}
+.signup-form .hint-text {
+		padding-bottom: 15px;
+		text-align: center;
+    color: black;
+}
+
+.signup-form .hint-text a {
+    color: blue;
+}
+.social-fac
+{
+    background: #47639e;
+    color: white;
+}
+.social-google
+{
+    background: #dd4b39;
+    color: white;
+}
+.social-twi
+{
+    background: #1DA1F2 ;
+    color: white;
+}
+.baniere{
+    width: 100%;
+    height: auto;
+}
+.news-alert
+{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    background: #1c8de7;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: white;
+}
+.container-fluid {
+    position: relative;
+    max-width: 1200px;
+    height: 100%;
+}
+.content-wrapper {
+    padding-bottom: 60px;
+}
+
+.delete-player
+{
+    position: absolute;
+    color: #ff3535;
+    margin-top: -50px;
+    margin-left: 100px;
+    font-size: 22px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+}
+
+.comment-avatar-name
+{
+      line-height: 40px;
+      font-weight: 500;
+      margin-left: 5px;
+}
+.divider {
+    position: relative;
+    margin: 1em 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.categories li a
+{
+    text-decoration: none;
+    font-size: 18px;;
+    margin-left: 2px;
+    display: block;
+    width: 100%;
+    position: relative;
+    top:-40px;
+    left: 20px;
+}
+.btn-dropdown {
+    min-width: 0;
+    background-color: #ededed;
+    font-family: 'Montserrat', sans-serif;
+    width: 140px;
+}
+.section--posts ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#terrain
+{
+    background: #91bc91;
+    height: 764px;
+    width: 100%;
+}
+#player-market
+{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    left: 20px;
+}
+#budget
+{
+    width: 100%;
+    height: 35px;
+    background: #404852;
+    line-height: 35px;
+    color: #f5c231;
+    position: relative;
+    top:-2px;
+    display: inline-block;
+}
+#budget h5
+{
+  margin-top:5px;
+  display: inline-block;
+}
+.rowmobile
+{
+    width: 100%;
+    height: 30px;
+    background: #001b36;
+    color: white;
+    font-family: Rubik,sans-serif;
+    font-size: 20px;
+}
+.rowmobile span
+{
+    float: right;
+    margin-right: 5px;
+    color: #eee600;
+}
+#search_price
+{
+    width: 100%;
+}
+#mobile-groupe div
+{
+    height: 88px;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+#mobile-groupe div img
+{
+    float: left;
+    margin-top: 5px;
+}
+.mobile-info_player
+{
+    top:0;
+    left: 80px;
+    position: absolute;
+    font-size: 15px;
+}
+.mobile-info_player_club
+{
+    top:20px;
+    left: 80px;
+    position: absolute;
+    font-size: 15px;
+}
+.detele-mobile
+{
+    float: right;
+    font-size: 32px;
+    line-height: 63px;
+    color:#dd2929;
+}
+.mobile-info_player_points
+{
+    top:8px;
+    right: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-size: 20px;
+}
+#mobile-groupe div:hover
+{
+    opacity: 0.5;
+}
+.inline-info
+{
+    display: inline-block;
+    width: 360px;
+    height: 400px;
+    position: absolute;
+    margin-left: 10px;
+}
+.player-line
+{
+    width: 100%;
+    height: 120px;
+    margin-top: 6.5px;
+    text-align: center;
+    display: inline-block;
+}
+#clock
+{
+    position: absolute;
+}
+#clock div
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.sleep
+{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color :#1d5ee3;
+}
+.players
+{
+    width: 130px;
+    height: 80px;
+    background-image: url("/images/player_add.png");
+    background-size: 80px 80px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    z-index: -100;
+}
+.players:hover
+{
+    cursor: pointer;
+}
+.player-info
+{
+    width: 100%;
+    height: 20px;
+    background: #80808073;
+    margin-top: 85px;
+    border-radius: 5px;
+    color: white;
+    line-height: 20px;
+}
+.have_player
+{
+    background: #5fd079;
+}
+.loading-spin
+{
+    font-size: 50px;
+    position: absolute;
+    color:#006bff;
+    left: 45%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 20000;
+}
+#mobile-list
+{
+    display: none;
+}
+.content-wrapper {
+    padding: 100px 0 120px;
+}
+.countdown
+{
+    height: 35px;
+    margin-top: 2px;
+    margin-left: -45px;
+}
+.counter
+{
+    float: left;
+    height: 100px;
+    text-align: left;
+    margin-top: -45px;
+    position: absolute;
+}
+#save-players
+{
+
+    position: absolute;
+    right: 15px;
+    margin-top: -45px;
+}
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3fa0ec;
+    color: white;
+}
+.league-pl
+{
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 1px #d1cfcf;
+    position: relative;
+}
+.league-pl h4
+{
+    position: absolute;
+    top:0;
+    left: 100px;
+}
+.league-pl span
+{
+    position: absolute;
+    top:30px;
+    left: 101px;
+    color:grey;
+}
+.league-pl h6
+{
+    position: absolute;
+    top:55px;
+    left: 100px;
+}
+.blason
+{
+    position: absolute !important;
+    right:0;
+    margin-right: 5px;
+}
+.button_league {
+    background-color: #343a40; /* Green */
+    border: none;
+    color: #ffd51f;
+    padding: 10px 50px;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ul.countdown li {
+  display: inline-block;
+  width: 60px;
+  margin-top: -45px;
+  position: relative;
+  text-align: center;
+}
+ul.countdown li span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f5c231;
+  height: 60px;
+  line-height: 108px;
+  position: relative;
+}
+ul.countdown li span::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 31px;
+}
+ul.countdown li p.timeRefDays,
+ul.countdown li p.timeRefHours,
+ul.countdown li p.timeRefMinutes,
+ul.countdown li p.timeRefSeconds {
+  margin-top: -40px;
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .875em;
+}
+@media screen and (max-width: 600px) {
+  .baniere {
+    display:none;
+  }
+}
+@media screen and (max-width: 330px) {
+  .btn-topics
+  {
+      display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px)
+{
+
+  [class*=col-] {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #all_terrain {
+    display:none;
+  }
+  #player-market
+  {
+      width: 100%;
+      left: 0;
+      margin-top: 10px;
+      display: none;
+  }
+  .button_league {
+      font-size: 12px;
+  }
+  #mobile-list
+  {
+      display: block;
+  }
+
+  .section section--posts
+  {
+      padding: 1em;
+  }
+  .content-wrapper {
+      padding: 30px 0 120px;
+  }
+
+  .main-content {
+      position: relative;
+      z-index: 3;
+      min-height: 100vh;
+      min-height: calc(100vh - 244px);
+      padding-top: 50px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: transform .3s,background-color .5s;
+  }
+}
